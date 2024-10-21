@@ -16,19 +16,19 @@ body {
     margin: 0;
   }
   
-  nav ul {
+  nav ol {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
   }
   
-  nav ul li {
+  nav ol li {
     margin: 0 1rem;
   }
   
-  nav ul li a {
-    color: white;
+  nav ol li a {
+    color: inherit;
     text-decoration: none;
   }
   
