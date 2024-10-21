@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: "My Simple Website"
+description: "A simple website created with Jekyll"
+baseurl: "" # Change to the repo name if deploying on GitHub Pages
+url: "https://your-username.github.io" # Your website URL
+
+# Theme
+theme: minima
+
+# Plugins (optional)
+plugins:
+  - jekyll-sitemap # Add a sitemap for SEO (optional)
+  - jekyll-seo-tag # SEO plugin (optional)
+
+# Markdown and highlighter
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
