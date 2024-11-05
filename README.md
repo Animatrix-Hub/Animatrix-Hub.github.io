@@ -1,1 +1,1 @@
-# Animatrix-Hub.github.io
+theme: jekyll-theme-minimal
